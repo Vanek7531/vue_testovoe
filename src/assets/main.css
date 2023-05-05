@@ -1,0 +1,28 @@
+@import "./base.css";
+
+#app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 250px 0;
+  font-weight: normal;
+}
+main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media (max-width: 1200px) {
+	#app  {
+		max-width: 1000px;
+	}
+}
+@media (max-width: 1200px) {
+	#app  {
+		max-width: 500px;
+	}
+	main {
+		justify-content: center;
+	}
+}
